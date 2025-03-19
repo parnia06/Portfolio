@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="./static/connect.css">
+</head>
+<body>
+    <style>
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; 
+            gap: 30px; 
+            padding-left: 50px; 
+        }
+
+        .simply {
+            font-size: 30px;
+            font-family: 'Brush Script MT', cursive;
+            margin-right:20px; 
+        }
+
+        .button a {
+            margin-right: 25px; 
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+       
+
+        .recipes {
+            color: blueviolet;
+        }
+
+        h1 {
+            margin-top: 70px; 
+            margin-left: 50px; 
+            font-size: 60px;
+        }
+
+        h4 {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 50px; 
+        }
+
+        .secpage {
+            display: inline-block;
+        }
+
+        .nextimage {
+            position: absolute; 
+            top: 150px; 
+            left: 800px; 
+            width: 500px; 
+            height: 350px;
+        }
+        .Awesomesouce{
+            text-align: center;
+            margin-top:40px ;
+            font-weight: bold;
+        }
+        .recipes-container {
+                display: flex;
+                gap: 120px; 
+                margin-top: 50px;
+                margin-left: 50px;
+            }
+            .beautiful-button{
+                margin-left: 50px;
+            }
+
+         .carne-container, .greekribs-container,.sushi-container,.salad-container {
+                text-align: left;
+            }
+
+        .carnepic, .greekribs,.sushi,.salad {
+                width: 220px;
+                height: 200px; 
+                display: block;
+                border-radius: 10px;
+            }
+
+         .firstcarnepa, .firstgreek,.firstsushi,.firstsalad {
+                margin-top: 10px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+         .secondcarnepa, .secondgreek,.secondsishi,.secondsalad {
+                font-size: 12px;
+                color: gray;
+                margin-top: 1px;
+            }
+    </style>
+
+    <div class="header">
+        <h2 class="simply"><span class="recipes">Simply</span> Recipes</h2>
+        <div class="button">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="tags.html">Tags</a>
+            <a href="recipes.html">Recipes</a>
+        </div>
+    </div>
+    <div class="secpage">
+        <h1>
+            Im baby coloring book <br>
+            poke taxidermy
+        </h1>
+    
+        <h4>
+            Taxidermy forage glossier letterpress heirloom <br>
+            before they sold out you <br>
+            probably haven't heard of them banh mi biodiesel chia.
+        </h4>
+      
+        <button class="beautiful-button">
+          contact me!
+        </button>
+    </div>
+    <img class="nextimage" src="./img/7e535b267c1bc492d2a5018574b54962.jpg" alt="wait a sec">
+    <p class="Awesomesouce">
+        Look At This Awesomesouce  :]
+    </p>
+    <div class="recipes-container">
+        <div class="carne-container">
+            <img class="carnepic" src="./img/71a28f82d2836bad5a1628e6ba79db3f.jpg" alt="Beef dish">
+            <h4 class="firstcarnepa">Carne Asada</h4>
+            <h6 class="secondcarnepa">Prep: 15min | Cook: 5min</h6>
+        </div>
+
+        <div class="greekribs-container">
+            <img class="greekribs" src="./img/ddc7c5c17fb4dd9fca5a642c1960b854.jpg" alt="Greek Ribs">
+            <h4 class="firstgreek">Greek Ribs</h4>
+            <h6 class="secondgreek">Prep: 15min | Cook: 5min</h6>
+        </div>
+        <div class="sushi-container">
+            <img class="sushi" src="./img/9e3b4b3072b96dce9a6ee29d37345c89.jpg" alt="Greek Ribs">
+            <h4 class="firstsushi">Sushi</h4>
+            <h6 class="secondsushi">Prep: 10min | Cook: 8min</h6>
+        </div>
+        <div class="salad-container">
+            <img class="salad" src="./img/d1e2a9c45ae8746c20b326c49414f663.jpg" alt="Greek Ribs">
+            <h4 class="firstsalad">Salad</h4>
+            <h6 class="secondsalad">Prep: 5min | Cook: 2min</h6>
+        </div>
+    </div>
+</body>
+</html>

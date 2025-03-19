@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="./static/contact.css">
+    <style>
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 30px;
+            padding-left: 50px;
+        }
+
+        .simply {
+            font-size: 30px;
+            font-family: 'Brush Script MT', cursive;
+            margin-right: 20px;
+        }
+
+        .button a {
+            margin-right: 25px;
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+
+        .recipes {
+            color: blueviolet;
+        }
+
+        .here {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .beef, .breakfast, .carrots, .dinner, .food {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 30px;
+            text-align: center;
+            width: 250px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .beef a, .breakfast a, .carrots a, .dinner a, .food a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .beef:hover, .breakfast:hover, .carrots:hover, .dinner:hover, .food:hover {
+            background-color: #0056b3;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .secondparagraph {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            gap: 20px;
+        }
+
+        .beautiful-button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .beautiful-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h2 class="simply"><span class="recipes">Simply</span> Recipes</h2>
+        <div class="button">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="tags.html">Tags</a>
+            <a href="recipes.html">Recipes</a>
+        </div>
+        <button class="beautiful-button">
+            contact me!
+        </button>
+    </div>
+
+    <div class="here">
+        <div class="button-group">
+            <button class="beef">
+                <a href="beef.html">Beef<br>2 recipe</a>
+            </button>
+            <button class="breakfast">
+                <a href="breakfast.html">Breakfast<br>1 recipe</a>
+            </button>
+            <button class="carrots">
+                <a href="carrots.html">Carrots<br>2 recipe</a>
+            </button>
+        </div>
+
+        <div class="secondparagraph">
+            <button class="dinner">
+                <a href="dinner.html">Dinner<br>2 recipe</a>
+            </button>
+            <button class="food">
+                <a href="food.html">Food<br>1 recipe</a>
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
+
